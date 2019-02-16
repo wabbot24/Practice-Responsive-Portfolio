@@ -1,0 +1,297 @@
+/* probably unecessary piece of code used to keep header flush with the top of the page */
+body {
+    margin: auto;
+    margin-top: -20px;
+}
+/* container for entire header - spans whole page, used for bottom border line */
+.header {
+    width: 100%;
+    height: 97px;
+    border-block-end-width: 100%;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+}
+/* container for Header text that keeps buttons within 960px margin */
+.headertext {
+    width: 1000px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Name button at top */
+.name {
+    color: white;
+    float: left;
+    background: #4aaaa5;
+    padding: 25px;
+}
+/* submit button on Contact page */
+#submitcontainer {
+    margin: 25px 0px;
+}
+.submit {
+    color: white;
+    text-decoration: none;
+    background: #4aaaa5;
+    padding: 10px 25px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.submit:hover {
+    border-style: ridge;
+    border-color: #a1a5ba;
+}
+/* attributes for buttons at top of screen */
+.buttons {
+    text-decoration: none;
+    color: #a1a5ba;
+    padding: 5px;
+}
+/* hover effect for above buttons */
+.buttons:hover {
+    color:  white;
+    background-color: #4aaaa5;
+}
+/* Contact button at top */
+#button3 {
+    color: #a1a5ba;
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 29px;
+    padding-right: 0px;
+    margin-left: -10px;
+    float: right;
+}
+/* Portfolio button at top */
+#button2 {
+    color: #a1a5ba;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 49px;
+    float: right;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: #d3d4d8;
+    border-right-color: #d3d4d8;
+    border-width: 1px;
+}
+/* About button at top */
+#button1 {
+    color: #a1a5ba;
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 29px;
+    margin-right: -10px;
+    float: right;
+}
+/* container that fills background when content doesn't fill screen */
+.fill {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-image: url(white-waves.png);
+}
+/* background pattern */
+.background {
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-image: url(white-waves.png);
+}
+/* main body box */
+.body {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+    margin-bottom: 80px;
+    /* height: 100%; */
+}
+/* container for text boxes on contact page - used for spacing */
+.textbox {
+    margin-bottom: 10px;
+}
+/* <input> text boxes on contact page */
+.box {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+/* Main title in the body of each page */
+.subheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    padding-left: 0px;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-width: 2x;
+    border-color: #dddddd;
+}
+/* text of bio in the about section body */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #777777;
+}
+/* Contact page sub-titles (Name, Email, Messageg) */
+.contactcategories {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #777777;
+    font-size: large;
+}
+/* text box for message */
+#message {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    border: 1px #dddddd solid;
+}
+/* profile picture on about page */
+#profilepicture {
+    float: left;
+    margin-right: 20px;
+}
+.photographycontainer {
+    height: 620px;
+}
+/* Left-hand photos on Portfolio */
+.photo {
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+/* left banners */
+.banner {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #4aaaa5;
+    float: left;
+    position: relative;
+    z-index: 3;
+    width: 270px;
+    height: 40px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+}
+/* Center and righthand photos on Portfolio */
+.photo2 {
+    float: left;
+    position: absolute;
+    z-index: 2;
+    /* margin-left: 105px; */
+}
+.container {
+    float: left;
+    margin: 25px;
+}
+/* center/right banners */
+.banner2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #4aaaa5;
+    float: left;
+    position: relative;
+    z-index: 3;
+    width: 250px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 105px;
+    padding-bottom: 20px;
+}
+
+/* footer for all pages */
+#footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dddddd;
+    position: fixed; bottom: 0px;
+    z-index: 2;
+    background-color: #666666;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 4px;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 1040px) {
+    .body {
+        width: 700px;
+    }
+    .headertext {
+        width: 740px;
+    }
+    .box {
+        width: 700px;
+    }
+    #message {
+        width: 700px;
+    }
+    .photographycontainer {
+        height: 940px;
+    }
+    .background
+}
+@media screen and (max-width: 768px) {
+    .body {
+        width: 580px;
+    }
+    .headertext {
+        width: 620px;
+    }
+    .box {
+        width: 580px;
+    }
+    #message {
+        width: 580px;
+    }
+    .container {
+        margin: 10px;
+    }
+    .photographycontainer {
+        height: 850px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .body {
+        width: 360px;
+    }
+    .headertext {
+        width: 400px;
+    }
+    .box {
+        width: 360px;
+    }
+    #message {
+        width: 360px;
+    }
+    .name {
+        padding: 25px 15px;
+    }
+    #button1 {
+        padding-left: 5px;
+    }
+    #background {
+        height: 125%;
+    }
+    .photographycontainer {
+        height: 1685px;
+    }
+}
