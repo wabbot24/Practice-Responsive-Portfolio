@@ -295,3 +295,64 @@ p {
         height: 1685px;
     }
 }
+@media screen and (max-width: 415px) {
+   
+    .background {
+        width: 100vw;
+    }
+    .body {
+        width: 80%;
+    }
+    .mobile {
+        text-align: center;
+        width: 80vw;
+    }
+    .buttons {
+        width: 100%;
+    }
+    .name {
+        width: 93vw;
+        float: none;
+        text-align: center;
+    }
+    .container {
+        margin-left: 0px;
+    }
+    .header {
+        height: 130px;
+    }
+    .headertext {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    .box {
+        width: 80vw;
+    }
+    #message {
+        width: 80vw;
+    }
+    .name {
+        padding: 25px 15px;
+    }
+    #button1 {
+        padding-left: 5px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    #button2 {
+        margin-top: 0px;
+    }
+    #button3 {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    #background {
+        height: 125%;
+    }
+    .photographycontainer {
+        height: 1685px;
+    }
+}
