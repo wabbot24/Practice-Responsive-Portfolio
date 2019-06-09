@@ -22,7 +22,7 @@ body {
 .name {
     color: white;
     float: left;
-    background: #4aaaa5;
+    background: hsl(13, 72%, 45%);
     padding: 25px;
 }
 /* submit button on Contact page */
@@ -32,7 +32,7 @@ body {
 .submit {
     color: white;
     text-decoration: none;
-    background: #4aaaa5;
+    background: hsl(13, 72%, 45%);
     padding: 10px 25px;
     width: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ body {
 /* hover effect for above buttons */
 .buttons:hover {
     color:  white;
-    background-color: #4aaaa5;
+    background-color: hsl(13, 72%, 45%);
 }
 /* Contact button at top */
 #button3 {
@@ -95,6 +95,7 @@ body {
     position: absolute;
     z-index: 1;
     background-image: url(white-waves.png);
+    
 }
 /* background pattern */
 .background {
@@ -103,6 +104,7 @@ body {
     position: absolute;
     z-index: 1;
     background-image: url(white-waves.png);
+    
 }
 /* main body box */
 .body {
@@ -134,7 +136,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     padding-left: 0px;
-    color: #4aaaa5;
+    color: hsl(13, 72%, 45%);
     border-bottom-style: solid;
     border-width: 2x;
     border-color: #dddddd;
@@ -178,7 +180,7 @@ p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: #4aaaa5;
+    background: hsl(13, 72%, 45%);
     float: left;
     position: relative;
     z-index: 3;
@@ -203,7 +205,7 @@ p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: #4aaaa5;
+    background: hsl(13, 72%, 45%);
     float: left;
     position: relative;
     z-index: 3;
@@ -227,7 +229,7 @@ p {
     padding-bottom: 4px;
     border-top-width: 8px;
     border-top-style: solid;
-    border-color: #4aaaa5;
+    border-color: hsl(13, 72%, 45%);
     margin-top: -200px;
 }
 
